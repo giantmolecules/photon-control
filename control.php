@@ -27,11 +27,11 @@
         <button id="onOffButton" class="button" onclick="doIt()"><span>RUN</span></button>
     </div>
     <script type="text/javascript">
-    var data = document.getElementById("input");
-    var button = document.getElementById("onOffButton");
     var func = new Array("RUN", "STOP");
     var state = false;
     function doIt(){
+        var data = document.getElementById("input").value;
+        var button = document.getElementById("onOffButton");
         var requestURL = "proxy.php";
         $.post( requestURL, { function: func[+state], args: data });
         state = !state;
