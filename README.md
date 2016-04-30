@@ -12,7 +12,7 @@ access.php: Contains the ACCESS_TOKEN and an array of DEVICE_IDs. It is ok to ha
 
 control.css: styling for the control.php page
 
-control.php: The control page. Contains a text field for arguments to send to the photon. Button calls functions named RUN and STOP by POSTing to the proxy.php script
+control.html: The control page. Contains a text field for arguments to send to the photon. Button calls functions named RUN and STOP by POSTing to the proxy.php script
 
 proxy.php: PHP script that cURLs requests to the devices in the DEVICE_ID array contained by access.php. It also posts the arguments supplied in the input field in control.php
 
