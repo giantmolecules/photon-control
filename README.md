@@ -5,6 +5,7 @@
 // April 30, 2016
 // brettbalogh@gmail.com
 //
+//
 This photon control example consists of the following files:
 
 access.php: Contains the ACCESS_TOKEN and an array of DEVICE_IDs. It is ok to have only one ID in the array
